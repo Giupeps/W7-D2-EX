@@ -41,3 +41,7 @@ class Pagination {
 
 let prodotti = new Pagination();
 prodotti.showList();
+
+let button = document.querySelector("#first-btn");
+let button2 = document.querySelector("#second-btn");
+button.addEventListener("click", prodotti.showList());
